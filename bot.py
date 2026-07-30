@@ -12,7 +12,7 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
 
 model = genai.GenerativeModel(
-    model_name="gemini-2.0-flash",
+    model_name="gemini-2.5-flash",
     system_instruction="""
 تو یک دستیار هوش مصنوعی فارسی‌زبان، دقیق، محترمانه و کاربردی هستی.
 جواب‌ها را ساده، واضح و مرحله‌به‌مرحله بده.
